@@ -4,19 +4,19 @@
 const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 5;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5; true
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ; 
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1.05 ;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,52 +28,77 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  var devolverString = str ;
+  return str
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  var suma = (x + y) 
+  x = 5 
+  y = 8 
+  return suma 
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  var resta = x - y ;
+  x = 10 
+  y = 5
+  return resta
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var multiplica = x * y ;
+  x = 2
+  y = 3
+  return multiplica 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
-}
+  var divide = (x / y) ;
+  x = 18
+  y = 9
+  return divide}
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var sonIguales = x === y ;
+
+  if (x === y) {return true}
+  else {return false}
+
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var tienenMismalongitud = (str1.length === str2.length) ;
+  if (str1.length === str2.length) {return true}
+  else {return false}
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  var menosQueNoventa, num = (menosQueNoventa < num) ;
+
+  num = 60
+  menosQueNoventa = 90
+
+  if (menosQueNoventa < num) {return true}
+  else {return false}
   
 }
 
